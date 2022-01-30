@@ -10,3 +10,4 @@
  there is an alarm sound that goes off every time one setting ends
  this was the highest compatibility option as anything that has a web browser can run this website
  the timer is based on unix epoch time with milliseconds
+ it is currently being hosted on github pages and should be easily accessible everywhere with a secure connection
