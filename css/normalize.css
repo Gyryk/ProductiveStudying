@@ -376,8 +376,9 @@ h2
   font-size: 2em;
 }
 
-footer
+.footer
 {
   text-align: center;
   background-color: #A7C7E7;
+  align-self: flex-end;
 }
