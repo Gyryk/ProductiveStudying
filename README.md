@@ -1,5 +1,6 @@
 # ProductiveStudying
- Use better studying practices to understand the concepts while also incentivising studying \n
+ Use better studying practices to understand the concepts while also incentivising studying
+
  this is an applet that will basically work like a timer 
  but it will alternatively go off every 25 minutes and then 5 minutes
  and it will tell you whether you need to study or take a break
