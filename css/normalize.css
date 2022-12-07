@@ -212,7 +212,7 @@ h2
 {
   text-align: center;
   font-size: 2em;
-  font-family:cursive;
+  font-family: cursive;
   margin-top: 18%;
 }
 
@@ -223,10 +223,11 @@ footer
   position: absolute;
   bottom: 0;
   width:100%;
+  font-family: Comfortaa;
 }
 
-@Comfortaa
+@font-face
 {
   font-family: 'Comfortaa';
-  src: '/Comfortaa.ttf'
+  src: url(Comfortaa.ttf);
 }
