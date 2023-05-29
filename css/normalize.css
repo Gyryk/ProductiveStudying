@@ -1,10 +1,10 @@
-html
+html 
 {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-body
+body 
 {
   margin: 0;
   background-color: #A4D8D8;
@@ -199,7 +199,7 @@ h4
 h3
 {
   text-align: center;
-  font-size: 4em;
+  font-size: 10em;
   color: #A34007;
   height: 3em;
   position: absolute;
