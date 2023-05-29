@@ -12,9 +12,11 @@ function timer()
 
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    let milliseconds = Math.floor(distance % 1000);
+    //let milliseconds = Math.floor(distance % 1000);
 
-    document.getElementById("timer").innerHTML = minutes + ":" + seconds + ":" + milliseconds;
+    secStr = convertSeconds(seconds);
+
+    document.getElementById("timer").innerHTML = minutes.toString() + ":" + secStr;
 
     setBreakText();
 
@@ -52,5 +54,17 @@ function setCountDownTime()
   {
     countDownTime = new Date().getTime() + (1000 * 60 * 5);
     timer();
+  }
+}
+
+function convertSeconds(sec)
+{
+  if(sec >= 10)
+  {
+    return sec;
+  }
+  else
+  {
+    return ("0" + sec.toString())
   }
 }
