@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html 
 {
   line-height: 1.15; /* 1 */
@@ -18,7 +20,7 @@ h1 {
   font-size: 3em;
   margin: 0.67em 0;
   text-align: center;
-  font-family: Comfortaa;
+  font-family: 'Bebas Neue';
   font-weight: 100;
 }
 
