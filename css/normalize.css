@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kalam:wght@700&family=Varela+Round&display=swap');
 
 html 
 {
@@ -20,7 +20,7 @@ h1 {
   font-size: 3em;
   margin: 0.67em 0;
   text-align: center;
-  font-family: 'Bebas Neue';
+  font-family: 'Dosis', sans-serif;
   font-weight: 100;
 }
 
@@ -191,10 +191,26 @@ p
   padding-right: 20px;
 }
 
+button
+{
+  background-color: #A4D8D8;
+  color: #222222;
+  border-radius: 8px;
+  padding: 1%;
+  border-color: #A4D8D8;
+  font-family: 'Varela Round', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonWrapper{
+  text-align: center;
+}
+
 h4
 {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 1.5em;
 }
 
@@ -215,7 +231,7 @@ h2
 {
   text-align: center;
   font-size: 2em;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
   margin-top: 18%;
   font-weight: 1000;
 }
@@ -234,4 +250,10 @@ footer
 {
   font-family: 'Comfortaa';
   src: url(Comfortaa.ttf);
+}
+
+@font-face
+{
+  font-family: 'Modulus';
+  src: url(Modulus.ttf);
 }
