@@ -197,17 +197,6 @@ p
   padding-right: 20px;
 }
 
-button
-{
-  background-color: transparent;
-  color: #444444;
-  border-radius: 8px;
-  padding: 1%;
-  border-color: transparent;
-  font-family: 'Varela Round', sans-serif;
-  margin: auto;
-}
-
 .buttonWrapper{
   text-align: center;
 }
@@ -215,6 +204,9 @@ button
 h4
 {
   font-size: 1.5em;
+  color: #444444;
+  font-family: 'Varela Round', sans-serif;
+  margin: auto;
 }
 
 h3
@@ -234,7 +226,7 @@ h2
 {
   text-align: center;
   font-size: 2em;
-  font-family: 'Kalam', cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   margin-top: 18%;
   font-weight: 1000;
 }

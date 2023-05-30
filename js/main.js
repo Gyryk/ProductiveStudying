@@ -33,6 +33,8 @@ function timer()
 }
 function setBreakText()
 {
+  iterations = 0
+
   if(!isBreak)
   {
     document.getElementById("break").innerHTML = "Time to study!";
